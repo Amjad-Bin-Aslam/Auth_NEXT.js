@@ -29,7 +29,7 @@ export default function LoginPage() {
             />
             <label htmlFor="username">Password</label>
             <input
-                className="p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600"
+                className="p-2 border border-gray-400 rounded-lg mb-4 focus:outline-none focus:border-gray-600"
                 type="password"
                 id="password"
                 value={user.password}
